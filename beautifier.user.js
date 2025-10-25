@@ -31,7 +31,8 @@
         "stampsVirtupets9764.gif",
         "stampsbattledome1337.gif",
         "stampsfaerieland87393.gif",
-        "stampsothers.gif"
+        "stampsothers.gif",
+        "pet_rock.gif"
     ];
 
     const replacementBase = "https://raw.githubusercontent.com/curbia/Neopets-Beautifier/main/avatars/";
