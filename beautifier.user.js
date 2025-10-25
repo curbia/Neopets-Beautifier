@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Neopets Beautifier
 // @namespace    https://github.com/curbia/Neopets-Beautifier/
-// @version      0.01
+// @version      0.02
 // @description  Replace specific Neopets images with fan-corrected versions
 // @match        https://www.neopets.com/neoboards/topic.phtml?topic=*
 // @match        https://www.neopets.com/guilds/guild_board.phtml?id=*
@@ -32,7 +32,19 @@
         "stampsbattledome1337.gif",
         "stampsfaerieland87393.gif",
         "stampsothers.gif",
-        "pet_rock.gif"
+        "pet_rock.gif",
+        "goldy.gif",
+        "mutantjubjub.gif",
+        "slorg.gif",
+        "freakedkorbat.gif",
+        "meridellknight.gif",
+        "grundo_snowthrow.gif",
+        "soup_faerie_kind.gif",
+        "fyora.gif",
+        "meowclops_close.gif",
+        "magax.gif",
+        "wheelofexcitement.gif",
+        "avatarcollector.gif"
     ];
 
     const replacementBase = "https://raw.githubusercontent.com/curbia/Neopets-Beautifier/main/avatars/";
