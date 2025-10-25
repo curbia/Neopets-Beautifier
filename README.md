@@ -15,4 +15,4 @@ Images from all over the site may be contributed. We prefer that images be submi
 
 ## Usage
 
-Install [Tampermonkey](https://www.tampermonkey.net/) or a similar userscript extension for your browser, then navigate to [the script URL](https://github.com/curbia/Neopets-Beautifier/raw/refs/heads/main/beautifier.js) and install as a userscript.
+Install [Tampermonkey](https://www.tampermonkey.net/) or a similar userscript extension for your browser, then navigate to [the script URL](https://github.com/curbia/Neopets-Beautifier/raw/refs/heads/main/beautifier.user.js) and install as a userscript.
