@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Neopets Beautifier
 // @namespace    https://github.com/curbia/Neopets-Beautifier/
-// @version      0.02
+// @version      0.03
 // @description  Replace specific Neopets images with fan-corrected versions
 // @match        https://www.neopets.com/neoboards/topic.phtml?topic=*
 // @match        https://www.neopets.com/guilds/guild_board.phtml?id=*
@@ -44,7 +44,27 @@
         "meowclops_close.gif",
         "magax.gif",
         "wheelofexcitement.gif",
-        "avatarcollector.gif"
+        "avatarcollector.gif",
+        "dice_escape.gif",
+        "scarblade.gif",
+        "clay_day.gif",
+        "moach.gif,
+        "purplepeo.gif",
+        "robertabrightvale.gif",
+        "kau.gif",
+        "eyrie.gif",
+        "elephante.gif",
+        "blumaroo.gif",
+        "neodaqtick.gif",
+        "nimmospond.gif",
+        "10thbday.gif",
+        "aota.gif",
+        "mutantgravedoom.gif",
+        "ddstaff.gif",
+        "faeriexweetok.gif",
+        "tarla.gif",
+        "tdmbgpop.gif",
+        "carnival_terror.gif"
     ];
 
     const replacementBase = "https://raw.githubusercontent.com/curbia/Neopets-Beautifier/main/avatars/";
