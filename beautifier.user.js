@@ -14,7 +14,19 @@
     'use strict';
 
     const replacements = [
-        "collectorshenkuu.gif"
+        "altador.gif",
+        "ava_stampalbum_other_faeries.gif",
+        "coins.gif",
+        "collectorshenkuu.gif",
+        "kingkelp.gif",
+        "neoquest.gif",
+        "neoquestii.gif",
+        "stampcollectorneopiacentral.gif",
+        "stampsDesert0013.gif",
+        "stampsSnowy2312.gif",
+        "stampsbattledome1337.gif",
+        "stampsfaerieland87393.gif",
+        "stampsothers.gif"
     ];
 
     const replacementBase = "https://raw.githubusercontent.com/curbia/Neopets-Beautifier/main/avatars/";
