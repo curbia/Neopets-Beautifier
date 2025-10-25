@@ -5,6 +5,8 @@ A collection of scripts and images to fix broken content on Neopets. All images 
 
 Several of the avatars on Neopets notoriously have graphical issues, including unnecessary whitespace, blurry text, and asymmetrical borders. This project provides fan-edited versions that aim to unify the style of all avatars, optimising for clarity and compatibility will all background colours.
 
+(Please note that GIFs do not animate on this preview page, but all edited avatars maintain their original animation!)
+
 | Original | Beautified |
 |---|---|
 | ![](https://images.neopets.com/neoboards/avatars/collectorshenkuu.gif) | ![](https://raw.githubusercontent.com/curbia/Neopets-Beautifier/main/avatars/collectorshenkuu.gif) |
