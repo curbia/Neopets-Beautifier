@@ -6,6 +6,7 @@
 // @match        https://www.neopets.com/neoboards/topic.phtml?topic=*
 // @match        https://www.neopets.com/guilds/guild_board.phtml?id=*
 // @match        https://www.neopets.com/userlookup.phtml?user=*
+// @icon         https://raw.githubusercontent.com/curbia/Neopets-Beautifier/main/icon.gif
 // @run-at       document-end
 // ==/UserScript==
 
