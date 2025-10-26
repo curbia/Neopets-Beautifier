@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Neopets Beautifier
 // @namespace    https://github.com/curbia/Neopets-Beautifier/
-// @version      0.04
+// @version      0.05
 // @description  Replace specific Neopets images with fan-corrected versions
 // @match        https://www.neopets.com/neoboards/topic.phtml?topic=*
 // @match        https://www.neopets.com/guilds/guild_board.phtml?id=*
@@ -87,7 +87,19 @@
         "godori.gif",
         "rubbish.gif",
         "monsterhunting.gif",
-        "aim_jhudora_fire.gif"
+        "aim_jhudora_fire.gif",
+        "bankdepositavatar.gif",
+        "charitycorner.gif",
+        "forgshore.gif",
+        "krawkenattack.gif",
+        "extravagance.gif",
+        "snowroller.gif",
+        "ddstaff_tourney.gif",
+        "aaasrevenge.gif",
+        "comiccon2018.gif",
+        "foreverloading.gif",
+        "foreverloading.gif",
+        "ava_coltzan_shrine.gif"
     ];
 
     const replacementBase = "https://raw.githubusercontent.com/curbia/Neopets-Beautifier/main/avatars/";
