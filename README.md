@@ -11,7 +11,7 @@ Several of the avatars on Neopets notoriously have graphical issues, including u
 |---|---|
 | ![](https://images.neopets.com/neoboards/avatars/collectorshenkuu.gif) | ![](https://raw.githubusercontent.com/curbia/Neopets-Beautifier/main/avatars/collectorshenkuu.gif) |
 | ![](https://images.neopets.com/neoboards/avatars/coins.gif) | ![](https://raw.githubusercontent.com/curbia/Neopets-Beautifier/main/avatars/coins.gif) |
-| ![](https://images.neopets.com/neoboards/avatars/pet_rock.gif) | ![](https://raw.githubusercontent.com/curbia/Neopets-Beautifier/main/avatars/pet_rock.gif) |
+| ![](https://images.neopets.com/neoboards/avatars/aim_jhudora_fire.gif) | ![](https://raw.githubusercontent.com/curbia/Neopets-Beautifier/main/avatars/aim_jhudora_fire.gif) |
 
 
 ## Other images
