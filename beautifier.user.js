@@ -76,7 +76,18 @@
         "ac_christmas_aisha.gif",
         "robotvandagyre.gif",
         "braintree.gif",
-        "landlba.gif"
+        "landlba.gif",
+        "trudyavatar.gif",
+        "kissthemortog.gif",
+        "royalboylutari.gif",
+        "thatsnotrubbish.gif",
+        "ava_dizzyyooyu.gif",
+        "ava_rules.gif",
+        "easterbunnyy17.gif",
+        "godori.gif",
+        "rubbish.gif",
+        "monsterhunting.gif",
+        "aim_jhudora_fire.gif"
     ];
 
     const replacementBase = "https://raw.githubusercontent.com/curbia/Neopets-Beautifier/main/avatars/";
