@@ -107,7 +107,8 @@
         "elephantesurprise.gif",
         "rods_champion.gif",
         "yarrble.gif",
-        "darigandarkling.gif"
+        "darigandarkling.gif",
+        "hic_kanrik.gif"
     ];
 
     const replacementBase = "https://raw.githubusercontent.com/curbia/Neopets-Beautifier/main/avatars/";
