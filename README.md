@@ -14,6 +14,13 @@ Several of the avatars on Neopets notoriously have graphical issues, including u
 | ![](https://images.neopets.com/neoboards/avatars/aim_jhudora_fire.gif) | ![](https://raw.githubusercontent.com/curbia/Neopets-Beautifier/main/avatars/aim_jhudora_fire.gif) |
 | ![](https://images.neopets.com/neoboards/avatars/bankdepositavatar.gif) | ![](https://raw.githubusercontent.com/curbia/Neopets-Beautifier/main/avatars/bankdepositavatar.gif)
 
+## Smilies
+
+| Original | Beautified |
+|---|---|
+| ![](https://images.neopets.com/neoboards/smilies/smiley.gif) | ![](https://raw.github.com/curbia/Neopets-Beautifier/main/smilies/smiley.gif) |
+| ![](https://images.neopets.com/neoboards/smilies/cough.gif) | ![](https://raw.github.com/curbia/Neopets-Beautifier/main/smilies/cough.gif) |
+| ![](https://images.neopets.com/neoboards/smilies/rainbow.gif) | ![](https://raw.github.com/curbia/Neopets-Beautifier/main/smilies/rainbow.gif) |
 
 ## Other images
 
