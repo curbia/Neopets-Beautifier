@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Neopets Beautifier
 // @namespace    https://github.com/curbia/Neopets-Beautifier/
-// @version      0.06
+// @version      0.07
 // @description  Replace specific Neopets images with fan-corrected versions
-// @match        https://www.neopets.com/neoboards/topic.phtml?topic=*
+// @match        https://www.neopets.com/neoboards/*
 // @match        https://www.neopets.com/guilds/guild_board.phtml?id=*
 // @match        https://www.neopets.com/userlookup.phtml?user=*
 // @icon         https://raw.githubusercontent.com/curbia/Neopets-Beautifier/main/icon.gif
@@ -108,10 +108,20 @@
         "rods_champion.gif",
         "yarrble.gif",
         "darigandarkling.gif",
-        "hic_kanrik.gif"
+        "smiley.gif",
+        "clap.gif",
+        "complain.gif",
+        "cough.gif",
+        "dark.gif",
+        "oh.gif",
+        "rainbow.gif",
+        "sad.gif",
+        "sunglasses.gif",
+        "vampire.gif",
+        "yarr.gif"
     ];
 
-    const replacementBase = "https://raw.githubusercontent.com/curbia/Neopets-Beautifier/main/avatars/";
+    const replacementBase = "https://raw.githubusercontent.com/curbia/Neopets-Beautifier/main/";
 
     function findAvatarNeoboards(bgImage) {
         const match = bgImage.match(/avatars\/([^")]+\.gif)/i);
@@ -123,12 +133,17 @@
         return match ? match[1] : null;
     }
 
+    function findSmilies(src) {
+        const match = src.match(/smilies\/([^/]+\.gif)/i);
+        return match ? match[1] : null;
+    }
+
     function replaceAvatarNeoboards() {
         document.querySelectorAll('.authorIcon').forEach(icon => {
             const bg = icon.style.backgroundImage;
             const filename = findAvatarNeoboards(bg);
             if (filename && replacements.includes(filename)) {
-                icon.style.backgroundImage = `url("${replacementBase}${filename}")`;
+                icon.style.backgroundImage = `url("${replacementBase}avatars/${filename}")`;
             }
         });
     }
@@ -139,14 +154,27 @@
             if (!src) return;
             const filename = findAvatarElsewhere(src);
             if (filename && replacements.includes(filename)) {
-                img.src = `${replacementBase}${filename}`;
+                img.src = `${replacementBase}avatars/${filename}`;
             }
         });
     }
 
+    function replaceSmilies() {
+        document.querySelectorAll('img').forEach(img => {
+            const src = img.src || img.getAttribute('src');
+            if (!src) return;
+            const filename = findSmilies(src);
+            if (filename && replacements.includes(filename)) {
+                img.src = `${replacementBase}smilies/${filename}`;
+            }
+        });
+    }
+
+
     function run() {
         replaceAvatarNeoboards();
         replaceAvatarElsewhere();
+        replaceSmilies();
     }
 
     run();
