@@ -1,7 +1,6 @@
 // ==UserScript==
 // @name         Neopets Beautifier
 // @namespace    https://github.com/curbia/Neopets-Beautifier/
-// @version      0.07
 // @description  Replace specific Neopets images with fan-corrected versions
 // @match        https://www.neopets.com/neoboards/*
 // @match        https://www.neopets.com/guilds/guild_board.phtml?id=*
@@ -118,7 +117,8 @@
         "sad.gif",
         "sunglasses.gif",
         "vampire.gif",
-        "yarr.gif"
+        "yarr.gif",
+        "ava_brain_freeze.gif"
     ];
 
     const replacementBase = "https://raw.githubusercontent.com/curbia/Neopets-Beautifier/main/";
