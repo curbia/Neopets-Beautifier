@@ -2,6 +2,7 @@
 // @name         Neopets Beautifier
 // @namespace    https://github.com/curbia/Neopets-Beautifier/
 // @description  Replace specific Neopets images with fan-corrected versions
+// @version      0.08
 // @match        https://www.neopets.com/neoboards/*
 // @match        https://www.neopets.com/guilds/guild_board.phtml?id=*
 // @match        https://www.neopets.com/userlookup.phtml?user=*
