@@ -1,12 +1,14 @@
 // ==UserScript==
 // @name         Neopets Beautifier
-// @namespace    https://github.com/curbia/Neopets-Beautifier/
+// @namespace    https://www.neopets.com
 // @description  Replace specific Neopets images with fan-corrected versions
-// @version      0.08
+// @version      0.09
 // @match        https://www.neopets.com/neoboards/*
 // @match        https://www.neopets.com/guilds/guild_board.phtml?id=*
 // @match        https://www.neopets.com/userlookup.phtml?user=*
 // @icon         https://raw.githubusercontent.com/curbia/Neopets-Beautifier/main/icon.gif
+// @downloadURL  https://raw.githubusercontent.com/curbia/Neopets-Beautifier/main/beautifier.user.js
+// @updateURL    https://raw.githubusercontent.com/curbia/Neopets-Beautifier/main/beautifier.user.js
 // @run-at       document-end
 // ==/UserScript==
 
