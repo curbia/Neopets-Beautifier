@@ -28,4 +28,24 @@ Images from all over the site may be contributed. We prefer that images be submi
 
 ## Usage
 
-Install [Tampermonkey](https://www.tampermonkey.net/) or a similar userscript extension for your browser, then navigate to [the script URL](https://github.com/curbia/Neopets-Beautifier/raw/refs/heads/main/beautifier.user.js) and install as a userscript.
+Install [Tampermonkey](https://www.tampermonkey.net/) or a similar userscript extension for your browser, then navigate to [the script URL](https://raw.githubusercontent.com/curbia/Neopets-Beautifier/raw/refs/heads/main/beautifier.user.js) and install as a userscript.
+
+# SDB Enhancer
+
+## Disclosure
+⚠️ This script was coded with the aid of generative AI
+
+## Enhancements
+* Automatically adds an item to the selection when the quantity is ≥1
+* Adds buttons to add or remove 10 from the quantity, or to quickly change the quantity to zero or the maximum amount
+* Moves the quantity selected to the bottom modal so it's always visible
+* Adds floating pagination buttons for previous/next page
+* Arranges the pagination numbers at the bottom of the page in a more logical way
+* Moves the "view details" link to a small magnifying glass icon over the item icon to make room for other content
+* Various minor CSS improvements
+
+![](https://raw.github.com/curbia/Neopets-Beautifier//main/sdb-enhanced.webp)
+
+## Usage
+
+Install [Tampermonkey](https://www.tampermonkey.net/) or a similar userscript extension for your browser, then navigate to [the script URL](https://raw.githubusercontent.com/curbia/Neopets-Beautifier/raw/refs/heads/main/sdb-enhancer.user.js) and install as a userscript.
